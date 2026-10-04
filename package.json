@@ -1,6 +1,6 @@
 {
 	"name": "@tommy-mitchell/configs",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "TypeScript, xo, and dprint configs.",
 	"license": "MIT",
 	"repository": "tommy-mitchell/configs",
