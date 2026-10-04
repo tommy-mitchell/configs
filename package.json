@@ -1,0 +1,42 @@
+{
+	"name": "@tommy-mitchell/configs",
+	"version": "0.0.0",
+	"description": "TypeScript, xo, and dprint configs.",
+	"license": "MIT",
+	"repository": "tommy-mitchell/configs",
+	"author": "Tommy Mitchell (https://tommymitchell.io)",
+	"type": "module",
+	"exports": {
+		"./dprint": "./src/dprint.json",
+		"./typescript": "./src/tsconfig.json",
+		"./xo": "./src/xo.js"
+	},
+	"sideEffects": false,
+	"engines": {
+		"node": "^22.22 || ^24.15 || >=26"
+	},
+	"scripts": {
+		"lint": "dprint check",
+		"format": "dprint fmt"
+	},
+	"files": [
+		"src"
+	],
+	"keywords": [
+		"nodejs",
+		"config",
+		"typescript",
+		"xo",
+		"dprint"
+	],
+	"dependencies": {
+		"@tommy-mitchell/dprint-config": "^0.10.0",
+		"@tommy-mitchell/eslint-config-xo": "^2.0.0-beta.11",
+		"@tommy-mitchell/tsconfig": "^4.0.0"
+	},
+	"peerDependencies": {
+		"dprint": "^0.60.1",
+		"typescript": "~6.0.3",
+		"xo": "^5.0.1"
+	}
+}
