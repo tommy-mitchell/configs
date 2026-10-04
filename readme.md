@@ -29,8 +29,9 @@ pnpm add --save-dev @tommy-mitchell/configs
 
 See [@tommy-mitchell/tsconfig](https://github.com/tommy-mitchell/tsconfig) for more info.
 
+In `tsconfig.json`:
+
 ```jsonc
-// tsconfig.json
 {
 	"extends": "@tommy-mitchell/configs/tsconfig",
 	"compilerOptions": {/* … */}
@@ -40,6 +41,8 @@ See [@tommy-mitchell/tsconfig](https://github.com/tommy-mitchell/tsconfig) for m
 ### xo
 
 See [@tommy-mitchell/eslint-config-xo](https://github.com/tommy-mitchell/eslint-config-xo) for more info.
+
+In `xo.config.js`:
 
 ```js
 import * as configs from "@tommy-mitchell/configs/xo";
@@ -52,8 +55,9 @@ export default [...configs.xo, ...configs.dprint];
 
 See [@tommy-mitchell/dprint-config](https://github.com/tommy-mitchell/dprint-config) for more info.
 
+In `dprint.json(c)`:
+
 ```jsonc
-// dprint.jsonc
 {
 	"extends": "@tommy-mitchell/configs/dprint",
 }
