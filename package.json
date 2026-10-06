@@ -9,8 +9,14 @@
 	"exports": {
 		"./dprint": "./src/dprint.json",
 		"./ts": "./src/tsconfig.json",
-		"./xo": "./src/xo.ts",
-		"./tsdown": "./src/tsdown.config.ts"
+		"./xo": {
+			"types": "./src/xo.config.d.ts",
+			"default": "./src/xo.config.js"
+		},
+		"./tsdown": {
+			"types": "./src/tsdown.config.d.ts",
+			"default": "./src/tsdown.config.js"
+		}
 	},
 	"sideEffects": false,
 	"engines": {
