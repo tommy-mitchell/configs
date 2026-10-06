@@ -1,6 +1,11 @@
 # @tommy-mitchell/configs
 
-TypeScript, xo, and dprint configs.
+Various configs:
+
+- [TypeScript](https://github.com/microsoft/TypeScript)
+- [xo](https://github.com/xojs/xo)
+- [dprint](https://github.com/dprint/dprint)
+- [tsdown](https://github.com/rolldown/tsdown)
 
 ## Install
 
@@ -33,7 +38,7 @@ In `tsconfig.json`:
 
 ```jsonc
 {
-	"extends": "@tommy-mitchell/configs/tsconfig",
+	"extends": "@tommy-mitchell/configs/ts",
 	"compilerOptions": {/* … */}
 }
 ```
@@ -61,4 +66,15 @@ In `dprint.json(c)`:
 {
 	"extends": "@tommy-mitchell/configs/dprint",
 }
+```
+
+### tsdown
+
+In `tsdown.config.ts`:
+
+```ts
+import { defineConfig } from "tsdown";
+import config from "@tommy-mitchell/configs/tsdown";
+
+export default defineConfig(config);
 ```
