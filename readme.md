@@ -64,7 +64,7 @@ In `dprint.json(c)`:
 
 ```jsonc
 {
-	"extends": "@tommy-mitchell/configs/dprint",
+	"extends": "npm:@tommy-mitchell/configs/dprint",
 }
 ```
 

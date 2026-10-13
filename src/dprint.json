@@ -1,1 +1,1 @@
-{ "extends": "../../dprint-config/index.jsonc" }
+{ "extends": "npm:@tommy-mitchell/dprint-config" }

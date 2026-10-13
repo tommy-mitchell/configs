@@ -37,12 +37,13 @@
 		"dprint"
 	],
 	"dependencies": {
-		"@tommy-mitchell/dprint-config": "^0.10.0",
+		"@tommy-mitchell/dprint-config": "^1.0.0",
 		"@tommy-mitchell/eslint-config-xo": "^2.0.0-beta.11",
 		"@tommy-mitchell/tsconfig": "^4.0.0",
 		"strip-comments-js": "^1.4.0"
 	},
 	"devDependencies": {
+		"dprint": "^0.63.0",
 		"tsdown": "^0.23.0"
 	},
 	"peerDependencies": {
