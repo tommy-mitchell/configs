@@ -78,3 +78,12 @@ import config from "@tommy-mitchell/configs/tsdown";
 
 export default defineConfig(config);
 ```
+
+Or to only bundle `.d.ts` files:
+
+```ts
+import { defineConfig } from "tsdown";
+import { dts } from "@tommy-mitchell/configs/tsdown";
+
+export default defineConfig(dts);
+```

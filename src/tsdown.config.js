@@ -1,8 +1,8 @@
 import { defineConfig } from "tsdown";
 import { stripComments } from "strip-comments-js";
 
-/** Outputs all `.ts` -> `.js` and bundles `.d.ts` files. */
-export default defineConfig([{
+/** @type {import("tsdown").UserConfig} */
+export const ts = {
 	entry: "src/index.ts",
 	dts: false,
 	unbundle: true,
@@ -13,7 +13,10 @@ export default defineConfig([{
 			jsdoc: false,
 		},
 	},
-}, {
+};
+
+/** @type {import("tsdown").UserConfig} */
+export const dts = {
 	dts: {
 		entry: "src/index.ts",
 		emitDtsOnly: true,
@@ -33,4 +36,6 @@ export default defineConfig([{
 		},
 		minifyInternalExports: false,
 	},
-}]);
+};
+
+export default defineConfig([ts, dts]);

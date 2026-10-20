@@ -1,7 +1,7 @@
 {
 	"name": "@tommy-mitchell/configs",
 	"version": "0.3.0",
-	"description": "TypeScript, xo, and dprint configs.",
+	"description": "Various configs.",
 	"license": "MIT",
 	"repository": "tommy-mitchell/configs",
 	"author": "Tommy Mitchell (https://tommymitchell.io)",
@@ -34,7 +34,8 @@
 		"config",
 		"typescript",
 		"xo",
-		"dprint"
+		"dprint",
+		"tsdown"
 	],
 	"dependencies": {
 		"@tommy-mitchell/dprint-config": "^1.0.0",
@@ -43,7 +44,7 @@
 		"strip-comments-js": "^1.4.0"
 	},
 	"devDependencies": {
-		"dprint": "^0.63.0",
+		"dprint": "^0.64.0",
 		"tsdown": "^0.23.0"
 	},
 	"peerDependencies": {
