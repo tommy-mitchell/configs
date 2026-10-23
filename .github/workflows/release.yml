@@ -5,7 +5,7 @@ on:
 
 jobs:
   publish:
-    name: Publish
+    name: Stage publish
     runs-on: ubuntu-latest
     permissions:
       contents: read
