@@ -9,6 +9,8 @@
 	"exports": {
 		"./dprint": "./src/dprint.json",
 		"./ts": "./src/tsconfig.json",
+		"./ts/node": "./src/tsconfig.node.json",
+		"./ts/vite": "./src/tsconfig.vite.json",
 		"./xo": {
 			"types": "./src/xo.config.d.ts",
 			"default": "./src/xo.config.js"
@@ -40,7 +42,7 @@
 	"dependencies": {
 		"@tommy-mitchell/dprint-config": "^1.0.0",
 		"@tommy-mitchell/eslint-config-xo": "^2.0.0-beta.11",
-		"@tommy-mitchell/tsconfig": "^4.0.0",
+		"@tommy-mitchell/tsconfig": "^5.0.0",
 		"strip-comments-js": "^1.4.0"
 	},
 	"devDependencies": {

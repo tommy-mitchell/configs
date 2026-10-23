@@ -43,6 +43,22 @@ In `tsconfig.json`:
 }
 ```
 
+#### Node
+
+```jsonc
+{
+	"extends": "@tommy-mitchell/configs/ts/node",
+}
+```
+
+#### Vite
+
+```jsonc
+{
+	"extends": "@tommy-mitchell/configs/ts/vite",
+}
+```
+
 ### xo
 
 See [@tommy-mitchell/eslint-config-xo](https://github.com/tommy-mitchell/eslint-config-xo) for more info.
